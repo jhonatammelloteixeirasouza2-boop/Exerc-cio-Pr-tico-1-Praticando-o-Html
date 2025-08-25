@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+	<meta charset="UTF-8">
+	<title>Contato</title>
+</head>
+<body>
+<h2> Entre em contato </h2>
+ <form action="/submit_form" method="post">
+ <label for="name">Nome completo:</label> <br>
+ <input type="text" id="name" name="name"> <br><br>
+
+ <label for="Email">Email:</label> <br>
+ <input type="email" id="Email" name="Email"> <br><br>
+
+ <label for="Menssagem">Menssagem</label> <br>
+ <textarea id="Menssagem" name="Menssagem" rows="4" cols="40">
+ </textarea><br><br>
+
+ <input type="submit" value="Enviar">
+
+ </form>
+</body>
+</html>
